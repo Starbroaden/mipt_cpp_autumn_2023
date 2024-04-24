@@ -45,8 +45,7 @@ std::string convertTextToSound(std::string text)
                 str[i] = n->second;
                 /*хотел вместо предыдущей строки написать так:
                 str.replace(i, 1, n->second);
-                но компилятор ругается. Видимо, из-за того,
-                что я не до конца разобрался с std::map и методом replace
+                но компилятор ругается. 
                 */ 
             }
         }
